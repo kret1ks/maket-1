@@ -2,26 +2,96 @@
 --logo-color: #FFF;
 --accent-color: #49464F;
 --text-color: #2E2C34;
---additional-text: #49464F;
 --main-color: #7140EB;
 }
-
-
-body {
-  font-family: "Roboto";
-}
-
-
 body {  
+    margin: 0;  
     font-family: 'Raleway', sans-serif;  
-      
+    background: var(--background-gradient);  
+}  
+.container{
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  outline: 1px solid red;
 }
-.header-future{
-    background: linear-gradient(90deg, #DA22FF, #9733EE);  
-}
+.header-future {  
+    text-align: center;  
+    padding: 80px 0;  
+    background: url(<path-to-image>) lightgray 50% / cover no-repeat;
+    background-image: url(../img/fone.jpg);
+}  
+
+.header-box {  
+width: 1280px;
+height: 800px;
+ flex-shrink: 0; 
+}  
+
+.header-list {  
+    display: flex;  
+    justify-content: center;  
+    align-items: center;  
+    list-style: none;    
+}  
 .header-img{
-    padding-left: 42px;
-    padding-top: 12px;
-    padding-right: 1114px;
-    padding-bottom: 715px;
+width: 124px;
+height: 70px;
+flex-shrink: 0;
 }
+.header-item {  
+   color: var(--logo-color);
+font-size: 18px;
+font-weight: 400;
+line-height: 1,01px;
+}  
+
+.header-title {  
+font-size: 48px;  
+margin: 20px 0;  
+width: 540px;
+color: var(--logo-color);
+text-align: center;
+font-size: 99px;
+font-weight: 400;
+line-height: 1,12px; 
+letter-spacing: 5px; 
+padding-left: 365px;
+padding-right: 375px;
+padding-top: 211px;
+}  
+
+.header-text {   
+width: 293px;
+color: var(--logo-color);
+text-align: center;
+font-size: 21px;
+font-weight: 400;
+line-height: 1.09;
+margin: 10px auto;   
+padding: 0 20px; 
+padding-top: 37px;
+padding-bottom: 57px;
+}  
+.header-btn, .main-btn {  
+    background-color: var(--main-color);  
+    color: var(--logo-color);
+    border: none;  
+    padding: 10px 20px;  
+    border-radius: 30px;  
+    font-size: 16px;  
+    cursor: pointer;  
+    margin-left: 91px;
+}  
+
+.header-img {  
+width: 81px;
+color: var(--logo-color);
+text-align: center;
+font-size: 18px;
+font-weight: 400;
+line-height: 1.01; 
+}
+ 
