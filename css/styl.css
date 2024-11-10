@@ -1,0 +1,27 @@
+:root {
+--logo-color: #FFF;
+--accent-color: #49464F;
+--text-color: #2E2C34;
+--additional-text: #49464F;
+--main-color: #7140EB;
+}
+
+
+body {
+  font-family: "Roboto";
+}
+
+
+body {  
+    font-family: 'Raleway', sans-serif;  
+      
+}
+.header-future{
+    background: linear-gradient(90deg, #DA22FF, #9733EE);  
+}
+.header-img{
+    padding-left: 42px;
+    padding-top: 12px;
+    padding-right: 1114px;
+    padding-bottom: 715px;
+}
