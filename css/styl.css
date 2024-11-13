@@ -31,15 +31,20 @@ height: 800px;
 }  
 
 .header-list {  
-    display: flex;  
-    justify-content: center;  
-    align-items: center;  
-    list-style: none;    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }  
 .header-img{
-width: 124px;
+width: 166.151px;;
 height: 70px;
 flex-shrink: 0;
+padding-left: 4.74em;
+padding-top: 15px;
+padding-right: 475px;
 }
 .header-item {  
    color: var(--logo-color);
@@ -75,15 +80,20 @@ padding: 0 20px;
 padding-top: 37px;
 padding-bottom: 57px;
 }  
-.header-btn, .main-btn {  
-    background-color: var(--main-color);  
-    color: var(--logo-color);
-    border: none;  
-    padding: 10px 20px;  
-    border-radius: 30px;  
-    font-size: 16px;  
-    cursor: pointer;  
-    margin-left: 91px;
+.header-btn{  
+width: 183px;
+height: 42px;
+flex-shrink: 0;
+background-color: var(--main-color);
+color: var(--logo-color);
+font-size: 18px;
+font-weight: 400;
+line-height: 1,01;
+margin-top: 11px;
+margin-bottom: 12px;
+margin-left: 51px;
+margin-right: 51px;
+ border-radius: 999px;
 }  
 
 .header-img {  
@@ -95,3 +105,77 @@ font-weight: 400;
 line-height: 1.01; 
 }
  
+
+
+
+
+
+
+
+
+
+
+.main-title{
+width: 391px;
+color: var(--accent-color);
+font-size: 67px;
+font-weight: 400;
+line-height: 0.99;
+padding-top: 68px;
+padding-left: 118px;
+padding-right: 771px;
+}
+.main-list{
+color: var(--accent-color);
+font-size: 28px;
+font-weight: 400;
+line-height: 1,22;
+}
+ .main-list li:nth-child(1) {  
+    width: 170px;  
+}  
+
+.main-list li:nth-child(2) {  
+    width: 215px;  
+}  
+
+.main-list li:nth-child(3) {  
+    width: 264px;  
+    
+}  
+
+.main-list li:nth-child(4) {  
+    width: 138px;  
+} 
+.main-btn{
+width: 189px;
+height: 62px;
+flex-shrink: 0;
+line-height: 1,01;
+background-color: #7140EB;
+}
+.main-item{
+width: 766px;
+height: 359px;
+flex-shrink: 0;
+}
+.move-img{
+width: 449px;
+color: var(--text-color);
+font-size: 67px;
+font-weight: 400;
+line-height: 0.99;
+
+}
+.move-item{
+width: 435px;
+color: var(--text-color);
+font-size: 20px;
+font-weight: 400;
+line-height: 1,24;
+}
+.move-list{
+width: 334px;
+height: 517px;
+flex-shrink: 0;
+}
