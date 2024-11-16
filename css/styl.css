@@ -3,7 +3,7 @@
     --accent-color: #49464F;
     --text-color: #2E2C34;
     --main-color: #7140EB;
-    --background-gradient: linear-gradient(to bottom, #ffffff, #f0f0f0); /* Добавил пример градиента */
+    --background-gradient: linear-gradient(to bottom, #ffffff, #f0f0f0); 
 }
 
 body {  
