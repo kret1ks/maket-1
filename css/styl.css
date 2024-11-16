@@ -18,149 +18,101 @@ body {
     padding: 0 15px;
     outline: 1px solid red;
 }
+.header-box{
+width: 1280px;
+height: 800px;
+flex-shrink: 0;
+background: url(../img/fone.jpg) lightgray 50% / cover no-repeat;
+}
+.header-img{
+width: 124px;
+height: 70px;
+flex-shrink: 0;
+}
 
+.header-title{
+    width: 540px;
+color: var(--logo-color);
+text-align: center;
+font-size: 99px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.12; 
+letter-spacing: 5px;
+padding-left: 365px;
+}
+.header-text{
+    width: 293px;
+color: var(--logo-color);
+text-align: center;
+font-size: 21px;
+font-weight: 400;
+line-height: 1.10; 
+padding-left: 493px;
+padding-top: 37px;
+display: flex;
+}
 .header-future {  
-    text-align: center;  
-    padding: 80px 0;  
-    background: url('../img/fone.jpg') lightgray center / cover no-repeat;
-}
+    
+    padding: 20px 0;   
+}  
 
-.header-box {
+
+
+.header-list {  
+    display: flex;  
+    justify-content: space-between;  
+    align-items: center;  
     width: 100%; 
-    height: 800px;
-    flex-shrink: 0;
-}
+    max-width: 1200px; 
+    margin-bottom: 20px;  
+    padding: 0; 
+    list-style-type: none; 
+}  
 
-.header-list {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
+.header-item {  
+    color: var(--logo-color); 
+    font-size: 18px;  
+    font-weight: 400;  
+    line-height: 1.07;   
+    margin: 0 15px; 
+}  
 
-.header-item {
-    color: var(--logo-color);
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 1.01; 
-}
+.header-logo {  
+    margin-right: auto;
+}  
 
-.header-item.logo {
-    margin-right: 37px;
-}
 
-.header-img {
-    width: 124px;
-    height: 70px;
-    flex-shrink: 0;
-    padding: 15px 0;
-}
 
-.header-title {
-    font-size: 99px;
-    margin: 20px auto;
-    color: var(--logo-color);
-    text-align: center;
-    line-height: 1.12; 
-    letter-spacing: 5px;
-    max-width: 540px; 
-}
+.header-text {  
+    color: var(--logo-color);  
+    font-size: 21px;  
+    font-weight: 400;  
+    line-height: 1.10;  
+    margin-bottom: 30px;  
+}  
 
-.header-text {
-    max-width: 293px;
-    color: var(--logo-color);
-    text-align: center;
-    font-size: 21px;
-    font-weight: 400;
-    line-height: 1.09;
-    margin: 10px auto;
-    padding: 37px 20px 57px;
-}
-
-.header-btn{
+.header-btn {  
     width: 183px;
     height: 42px;
     background-color: #6a5acd;
-    color: #ffffff;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 1.01;
-    margin: 11px 51px 12px;
-    border-radius: 999px;
-    border: none;
-    cursor: pointer;
-}
-
-.main-title {
-    color: var(--accent-color);
-    font-size: 67px;
-    font-weight: 400;
-    line-height: 0.99;
-    padding-top: 68px;
-    margin-left: 118px; 
-    padding-bottom: 71px;
-}
-
-.main-list {
-    color: var(--accent-color);
-    font-size: 28px;
-    font-weight: 400;
-    line-height: 1.22; 
-    padding: 0;
-    margin: 0;
-    list-style: none;
-    padding-bottom: 51px;
-}
-.main-item {
-    width: 100%; 
-    height: auto;
-    flex-shrink: 0;
-    padding-left: 123px;
-    margin-bottom: 24px;
-}
-.works-img{
-width: 766px;
-height: 359px;
-flex-shrink: 0;
-padding-left: 514px;
-text-align: center;
-}
-.main-btn{
-    width: 183px;
-    height: 62px;
-    background-color: #6a5acd;
     color: var(--logo-color);
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 1.01;
-    margin: 11px 51px 12px;
-    border-radius: 999px;
-    border: none;
-    cursor: pointer;
-    text-align: center;
-    padding-left: 123px;
-    padding: 0;
-    
+    font-size: 18px;  
+    font-weight: 400;  
+    border: none;  
+    border-radius: 999px; 
+    cursor: pointer; 
+    margin-left: 50px; 
+}  
+.futer-btn{
+ width: 183px;
+height: 42px;
+flex-shrink: 0;
+border-radius: 999px;
+background: #7140EB;
+color: var(--logo-color);
+font-size: 18px;  
+font-weight: 400; 
+border: none; 
+margin-left: 548px;
 }
-.move-img {
-    width: 100%;
-    color: var(--text-color);
-    font-size: 67px;
-    font-weight: 400;
-    line-height: 0.99;
-}
-
-.move-item {
-    color: var(--text-color);
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 1.24; 
-}
-
-.move-list {
-    width: 100%; 
-    height: auto; 
-    flex-shrink: 0;
-} */
