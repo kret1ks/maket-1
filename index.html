@@ -7,14 +7,19 @@
     <title>Document</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="./css/styl.css">
     <link rel="stylesheet" href="./css/reset.css">
 </head>
 <body>
     <header class="header">
+        <!-- header -->
         <section class="header-future">
             <div class="container header-box">
                 <ul class="header-list">
@@ -29,6 +34,11 @@
                         <button type="button" class="header-btn">Start now</button>
                     </li>
                 </ul>
+                </div>
+                </section>
+                <!-- start -->
+                <section class="start-now">
+                    <div class="container start-box"> 
                 <h1 class="header-title">Your future is electric</h1>
                 <p class="header-text">Get your own ebike or emoped with our flexible subscription</p>
                 <button type="button" class="futer-btn">Start now</button>
@@ -57,28 +67,31 @@
                 <p class="move-item">Choose the electric ride that suits your lifestyle.</p>
                 <ul class="move-list">
                     <li class="move-item">
-                        <img src="./img/bake.jpg" alt="Dance One Step">
+                        <img src="./img/bake.jpg" alt="Dance One Step" class="move-img">
                         <div class="move-info">
-                            <p class="move-text">From €59 <span class="discounted-price">€39</span> /mo <span
+                            <p class="move-text">From €59 <span class="discounted-price">€39</span><span class="move-span">/mo</span> <span
                                     class="move-span">Winter offer</span></p>
                             <h2 class="move-name">Dance One Step</h2>
                             <p class="move-type">Ebike</p>
-                            <button class="move-button">See details</button>
+                            <button class="move-button">See details </button>
                         </div>
                     </li>
                     <li class="move-item">
-                        <img src="./img/bake.jpg" alt="Dance One">
+                        <img src="./img/bake.jpg" alt="Dance One" class="move-img">
                         <div class="move-info">
+                            <div class="move-box">
                             <p class="move-text">From €59 <span class="discounted-price">€39</span> /mo <span
                                     class="move-span">Winter offer</span></p>
                             <h2 class="move-name">Dance One</h2>
                             <p class="move-type">Ebike</p>
+                            </div>
                             <button class="move-button">See details</button>
                         </div>
                     </li>
                     <li class="move-item">
-                        <img src="./img/skuter.jpg" alt="Dance Moped">
+                        <img src="./img/skuter.jpg" alt="Dance Moped" class="move-img">
                         <div class="move-info">
+                            <div class="move-box"></div>
                             <p class="move-text">From €89 <span class="discounted-price">€39</span> /mo <span
                                     class="move-span">Winter offer</span></p>
                             <h2 class="move-name">Dance Moped</h2>
@@ -96,7 +109,7 @@
                 <p class="ride-text">Your local Concierge Team will repair or replace your ride within 24 hours—all
                     included with your subscription.</p>
                 <button type="button" class="ride-btn">See details</button>
-                <img src="./img/ride.jpg" alt="Ride image">
+                <img src="./img/ride.jpg" alt="Ride image" class="ride-img">
             </div>
         </section>
         <!-- city -->
@@ -120,26 +133,25 @@
             <div class="container">
                 <div class="charge-section">
                     <h2 class="charge-title">You're in charge</h2>
-                    <p class="charge-text">Your subscription is fully flexible — with free cancelation at any time and
-                        no sign-up fees.</p>
+                    <p class="charge-text">Your subscription is fully flexible — with free cancelation at any time and no sign-up fees.</p>
                     <ul class="charge-list">
-                        <li class="charge-item">✔ Repairs within 24 hours</li>
-                        <li class="charge-item">✔ Replacements in case of theft</li>
-                        <li class="charge-item">✔ App to track your rides</li>
-                        <li class="charge-item">✔ Cancel anytime</li>
+                        <li class="charge-item">Repairs within 24 hours</li>
+                        <li class="charge-item">Replacements in case of theft</li>
+                        <li class="charge-item">App to track your rides</li>
+                        <li class="charge-item">Cancel anytime</li>
                     </ul>
                 </div>
                 <div class="charge-section">
                     <div class="charge-card">
-                        <img src="./img/bake.jpg" alt="Dance One Step Ebike">
-                        <p class="charge-text">From €59 <span class="charge-price">€39</span>/mo <span
+                        <img src="./img/bake.jpg" alt="Dance One Step Ebike" class="charge-img">
+                        <p class="charge-text">From €59 <span class="charge-price">€39</span><span class="charge-text">/mo</span> <span
                                 class="charge-label">Winter offer</span></p>
                         <h2 class="charge-title">Dance One Step</h2>
                         <p class="charge-text">Ebike</p>
-                        <button class="cta-button">Start now</button>
+                        <button class="charge-btn">Start now</button>
                     </div>
                     <div class="charge-card">
-                        <img src="./img/skuter.jpg" alt="Dance Moped">
+                        <img src="./img/skuter.jpg" alt="Dance Moped" class="charge-img">
                         <p class="charge-text">From €89 <span class="charge-price">€39</span>/mo <span
                                 class="charge-label">Winter offer</span></p>
                         <h2 class="charge-title">Dance Moped</h2>
@@ -185,7 +197,6 @@
     </div>
 </section>
 </main>
-<!-- speed -->
 <!-- speed -->
 <footer class="footer">
     <section class="footer-speed">
