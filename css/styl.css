@@ -418,3 +418,79 @@ padding-right: 54px;
 margin-top: 12px;
 margin-bottom: 106px;
 }
+
+  /* <!-- Want to --> */
+
+
+ .want-ttitle{
+width: 235px;
+color: var(--text-color);
+font-size: 67px;
+font-weight: 400;
+line-height: 0.99;
+  }
+  .want-btn{  
+width: 81px;
+color: var(--text-color);
+flex-shrink: 0;
+background: transparent;   
+border: 1px solid #000; 
+border-radius: 20px; 
+padding-top: 22px;
+padding-bottom: 22px; 
+cursor: pointer; 
+margin-top: 39px; 
+margin-bottom: 85px;
+padding-top: 12px;
+padding-bottom: 11px;
+width: 180px;
+height: 39px;
+flex-shrink: 0;
+}
+.want-list li {  
+    position: relative; 
+    padding-left: 30px; 
+    color: var(--text-color);  
+    font-size: 21px;  
+    font-weight: 400;  
+    line-height: 1.18;  
+}  
+
+.want-list li::before {  
+    content: ""; 
+    background-image: url(../img/plus.png);   
+    background-repeat: no-repeat;   
+    position: absolute; 
+    left: 0;  
+    top: 50%; 
+    transform: translateY(-50%);    
+    width: 18px;
+    height: 17px;
+    flex-shrink: 0;
+} 
+
+
+/* friends */
+
+
+.friends-title{
+width: 683px;
+color: var(--accent-color);
+font-size: 66px;
+font-weight: 400;
+line-height: 1,01;
+}
+.friends-item{
+width: 246px;
+color: var(--accent-color);
+font-size: 29px;
+font-weight: 400;
+line-height: 0.98;
+}
+.friends-text{
+width: 92px;
+color: var(--accent-color);
+font-size: 17px;
+font-weight: 400;
+line-height: 1.42;
+}
