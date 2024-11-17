@@ -494,3 +494,12 @@ font-size: 17px;
 font-weight: 400;
 line-height: 1.42;
 }
+
+
+/* speed */
+
+
+.footer-speed{
+background: url(../img/fone.jpg) lightgray 50% / cover no-repeat;
+}
+.footergit 
