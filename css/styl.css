@@ -88,7 +88,7 @@ display: flex;
     padding-left: 51px;
     padding-right: 51px;
 }  
-.futer-btn{
+.start-btn{
 flex-shrink: 0;
 border-radius: 999px;
 background: #7140EB;
@@ -107,43 +107,43 @@ margin-bottom: 183px;
 
 /* work */
 
-
-.main-title{
-width: 391px;
-color: var(--accent-color);
-font-size: 67px;
-font-weight: 400;
-line-height: 0.99;
-padding-left: 118px;
-}
-.main-list{
-    padding-left: 123px;
-}
-.main-item {
-width: 170px;
-color: var(--accent-color);
-font-size: 28px;
-font-weight: 400;
-line-height: 1,22;
+.main-title {  
+    width: 391px;  
+    color: var(--accent-color);
+    font-size: 67px;  
+    font-weight: 400;  
+    line-height: 0.99;  
+    margin-left: 118px;  
+    margin-top: 68px;  
+    margin-bottom: 71px;  
 }  
-.main-btn{
-flex-shrink: 0;
-border-radius: 999px;
-background: #7140EB;
-color: var(--logo-color);
-font-size: 18px;  
-font-weight: 400; 
-border: none; 
-padding-top: 11px;
-padding-bottom: 12px;
-padding-left: 51px;
-padding-right: 51px;
-}
-.work-img{
-width: 766px;
-height: 359px;
-flex-shrink: 0;
-}
+.main-list {  
+    padding-left: 123px;  
+}  
+.main-item {  
+    width: 100%; 
+    color: var(--accent-color);
+    font-size: 28px;  
+    font-weight: 400;  
+    line-height: 34.423px; 
+    margin-bottom: 10px;  
+}  
+.main-btn {  
+    flex-shrink: 0;  
+    border-radius: 999px;  
+    background-color: var(--main-color); 
+    color: var(--logo-color);  
+    font-size: 18px;  
+    font-weight: 400;   
+    border: none;   
+    padding: 11px 51px;  
+    margin-left: 123px;  
+    margin-top: 51px;  
+}  
+.works-img {  
+    
+}  
+
 
 /* <!-- Move your way --> */
 
@@ -502,4 +502,45 @@ line-height: 1.42;
 .footer-speed{
 background: url(../img/fone.jpg) lightgray 50% / cover no-repeat;
 }
-.footergit 
+.footer-title{
+width: 217px;
+color: var(--logo-color);
+font-size: 29px;
+font-weight: 400;
+line-height: 1,18; 
+}
+.footer-text{
+width: 286px;
+color: var(--logo-color);
+font-size: 16px;
+font-weight: 400;
+line-height: 1,5;
+}
+.email-input{
+width: 314px;
+height: 54px;
+flex-shrink: 0;
+border-radius: 10px;
+background-color: var(--logo-color)
+}
+.sped-text{
+width: 259px;
+color: var(--logo-color);
+font-size: 14px;
+font-weight: 400;
+line-height: 1,5;
+}
+.footer-menu{
+width: 42px;
+color: rgba(255, 255, 255, 0.50);
+font-size: 16px;
+font-weight: 400;
+line-height: 1,5;
+}
+.footer-list{
+width: 40px;
+color: var(--logo-color);
+font-size: 16px;
+font-weight: 400;
+line-height: 1,5;
+}
