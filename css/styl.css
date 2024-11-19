@@ -108,14 +108,14 @@ margin-bottom: 183px;
 /* work */
 
 .main-title {  
-    width: 391px;  
-    color: var(--accent-color);
-    font-size: 67px;  
-    font-weight: 400;  
-    line-height: 0.99;  
-    margin-left: 118px;  
-    margin-top: 68px;  
-    margin-bottom: 71px;  
+width: 449px;
+color: var(--text-color);
+font-size: 67px;  
+font-weight: 400;  
+line-height: 0.99;  
+margin-left: 118px;  
+margin-top: 68px;  
+margin-bottom: 71px;  
 }  
 .main-list {  
     padding-left: 123px;  
@@ -147,13 +147,14 @@ margin-bottom: 183px;
 
 /* <!-- Move your way --> */
 
-
-.meve-title{
+.move-title{
 width: 449px;
 color: var(--text-color);
 font-size: 67px;
 font-weight: 400;
 line-height: 0.99;
+margin-left: 118px;
+margin-top: 68px;
 }
 .move-item{
 width: 435px;
@@ -161,11 +162,14 @@ color: var(--text-color);
 font-size: 20px;
 font-weight: 400;
 line-height: 1.24;
+margin-left: 123px;
+margin-top: 27px;
+}
+.move-list{
+    display: flex;
 }
 .move-img{
-width: 286px;
-height: 227px;
-flex-shrink: 0;
+margin-top: 115px;
 }
 .move-box{
 width: 36px;
@@ -215,14 +219,6 @@ color: var(--accent-color);
 font-size: 18px;
 font-weight: 400;
 line-height: 1,18;
-}
-.move-button{
-width: 81px;
-color: var(--text-color);
-text-align: center;
-font-size: 16px;
-font-weight: 400;
-line-height: 1;
 }
 .move-button {  
 width: 180px;
