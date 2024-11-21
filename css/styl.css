@@ -120,6 +120,7 @@ font-size: 67px;
 font-weight: 400;  
 line-height: 0.99;   
 margin-bottom: 71px;  
+margin-top: 68px;
 }    
 .main-item {  
     width: 100%; 
@@ -128,7 +129,6 @@ margin-bottom: 71px;
     font-weight: 400;  
     line-height: 1.22; 
     margin-bottom: 24px;  
-
 }  
 .main-box{
     display: flex;
@@ -144,7 +144,7 @@ margin-bottom: 71px;
     font-weight: 400;   
     border: none;   
     padding: 11px 51px;  
-    margin-top: 71px;
+    margin-top: 73px;
 }  
 
 
@@ -154,16 +154,18 @@ margin-bottom: 71px;
 
 .move-box {
     display: flex;
-    flex-direction: column;
     align-items: center;
     text-align: center;
 }
+
 .move-title {
     font-size: 67px;
     font-weight: 400;
     color: var(--text-color);
     margin-top: 68px;
     margin-bottom: 27px;
+    
+    
 }
 .move-item {
     font-size: 20px;
@@ -228,12 +230,20 @@ margin-bottom: 71px;
 
 
 /* ride */
+.ride-box{
+    display: flex;
+    justify-content: center;
+}
+.ride-list{
+    margin-left: 17px;
+}
 .ride-title{
 width: 426px;
 color: var(--text-color);
 font-size: 67px;
 font-weight: 400;
 line-height: 0,99;
+margin-bottom: 26px;
 }
 .ride-text{
 width: 313px;
@@ -241,6 +251,7 @@ color: var(--text-color);
 font-size: 18px;
 font-weight: 400;
 line-height: 1.2;
+margin-bottom: 39px;
 }
 .ride-btn{  
 width: 81px;
@@ -264,10 +275,16 @@ flex-shrink: 0;
 width: 597px;
 height: 378px;
 flex-shrink: 0;
+margin-top: 74px;
 }
 
 
 /* <!-- city --> */
+
+.city-info{
+    flex-direction: column;
+}
+
 .city {  
     background-image: url(../img/cityfone.jpg);  
     background-size: cover;  
