@@ -20,6 +20,7 @@
 }
 .header{
  background: url(../img/fone.jpg) lightgray 50% / cover no-repeat;
+ padding-bottom: 153px;
 }
 .header-img{
 width: 124px;
