@@ -235,14 +235,15 @@ gap: 26px;
 }
 
 
-
 /* ride */
+
+
+.ride{
+    padding-top: 69px;
+    padding-bottom: 85px;
+}
 .ride-box{
     display: flex;
-    justify-content: center;
-}
-.ride-list{
-    margin-left: 17px;
 }
 .ride-title{
 width: 426px;
