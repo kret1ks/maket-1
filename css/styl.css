@@ -116,7 +116,10 @@ margin-bottom: 183px;
 }
 
 /* work */
-
+.main{
+    padding-top: 68px;
+    padding-bottom: 73px;
+}
 .main-title {  
 width: 449px;
 color: var(--text-color);
@@ -124,7 +127,6 @@ font-size: 67px;
 font-weight: 400;  
 line-height: 0.99;   
 margin-bottom: 71px;  
-margin-top: 68px;
 }    
 .main-item {  
     width: 100%; 
@@ -137,8 +139,11 @@ margin-top: 68px;
 .main-box{
     display: flex;
     align-items: center;
-    text-align: center;
+    justify-content: space-between;
 }
+.main-item:last-child {  
+    margin-bottom: 0;  
+}  
 .main-btn {  
     flex-shrink: 0;  
     border-radius: 999px;  
@@ -155,18 +160,21 @@ margin-top: 68px;
 
 /* <!-- Move your way --> */
 
-
+.move{
+    padding-top: 68px;
+    padding-bottom: 73px;
+}
 .move-box {
-    display: flex;
-    align-items: center;
-    text-align: center;
+display: flex;
+align-items: center;
+text-align: center;
+gap: 26px;
 }
 
 .move-title {
     font-size: 67px;
     font-weight: 400;
     color: var(--text-color);
-    margin-top: 68px;
     margin-bottom: 27px;
 }
 .move-item {
@@ -175,16 +183,14 @@ margin-top: 68px;
     color: var(--text-color);
     margin-bottom: 115px;
 }
+.move-box{
+    display: flex;
+}
 .move-list {
     display: flex;
     justify-content: center;
     gap: 64px; 
 }
-.move-item {
-    text-align: center;
-    width: 300px;
-}
-
 .move-img {
     margin-bottom: 20px;
     width: 100%; 
@@ -194,7 +200,6 @@ margin-top: 68px;
     font-size: 17px;
     font-weight: 400;
     color: var(--accent-color);
-    margin-bottom: 5px;
 }
 .discounted-price {
     font-size: 18px;
