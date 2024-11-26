@@ -290,15 +290,14 @@ margin-top: 74px;
 /* <!-- city --> */
 
 .city-info{
-    flex-direction: column;
+   display: flex;
+   flex-direction: column;
 }
 
 .city {  
     background-image: url(../img/cityfone.jpg);  
     background-size: cover;  
     color: var(--logo-color);
-    flex-direction: column;  
-    justify-content: center;   
 }  
 
 .city-title{
@@ -315,25 +314,26 @@ font-weight: 400;
 line-height: 1.18;
 }
 .city-btn{
+width: 189px;
+height: 62px;
 flex-shrink: 0;
 border-radius: 999px;
-background: #7140EB;
-color: var(--logo-color);
-font-size: 18px;  
-font-weight: 400; 
-border: none; 
-padding-top: 20px;
-padding-bottom: 23px;
+background-color: var(--main-color);
+border: none;
+padding-top: 11px;
+padding-bottom: 12px;
 padding-left: 51px;
 padding-right: 51px;
-margin-top: 29px;
-margin-bottom: 33px;
 }
 .city-text{
 color: var(--logo-color);
 font-size: 18px;
 font-weight: 400;
 line-height: 1.35;
+}
+.city-content{
+    justify-content: center;
+    text-align: center;
 }
 .city-title{
 width: 280px;
@@ -348,13 +348,17 @@ letter-spacing: 5px;
 
  /* <!-- You’re in charge --> */
 
-
+.charge{
+    padding-top: 69px;
+    padding-bottom: 113px;
+}
  .charge-title{
 width: 248px;
 color: var(--text-color);
 font-size: 65px;
 font-weight: 400;
 line-height: 1,02;
+padding-bottom: 27px;
  }
  .charge-text{
 width: 252px;
@@ -411,16 +415,17 @@ font-weight: 400;
 line-height: 1.18;
 }
 .charge-text{
-width: 44px;
+width: 252px;
 color: var(--text-color);
-font-size: 18px;
+font-size: 21px;
 font-weight: 400;
-line-height: 1.2;
+line-height: 1.18;
+padding-bottom: 43px;
 }
 .charge-btn{
 flex-shrink: 0;
 border-radius: 999px;
-background: #7140EB;
+background-color: var(--main-color);
 color: var(--logo-color);
 font-size: 18px;  
 font-weight: 400; 
@@ -429,8 +434,6 @@ padding-top: 20px;
 padding-bottom: 23px;
 padding-left: 54px;
 padding-right: 54px;
-margin-top: 12px;
-margin-bottom: 106px;
 }
 
   /* <!-- Want to --> */
