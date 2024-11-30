@@ -256,6 +256,8 @@ margin-bottom: 115px;
 }
 .ride-box{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .ride-title{
 width: 426px;
@@ -271,7 +273,6 @@ color: var(--text-color);
 font-size: 18px;
 font-weight: 400;
 line-height: 1.2;
-margin-bottom: 39px;
 }
 .ride-btn{  
 width: 81px;
@@ -294,7 +295,6 @@ flex-shrink: 0;
 width: 597px;
 height: 378px;
 flex-shrink: 0;
-margin-top: 74px;
 }
 
 
@@ -304,11 +304,8 @@ margin-top: 74px;
     background-image: url(../img/cityfone.jpg);  
     background-size: cover;  
     color: var(--logo-color);
-    margin-bottom: 69px;
     justify-content: center;
-
-}  
-
+} 
 .city-title{
 width: 319px;
 font-size: 65px;
@@ -342,11 +339,8 @@ font-size: 18px;
 font-weight: 400;
 line-height: 1.35;
 }
-.city-content{
-  justify-content: center;
-}
 .city-title{
-width: 280px;
+width: 319px;
 color: var(--logo-color);
 text-align: right;
 font-size: 100px;
@@ -378,16 +372,13 @@ font-weight: 400;
 line-height: 1,18;
 margin-bottom: 43px;
  }
-.charge-list{
-
-}
 .charge-item{
 width: 171px;
 color: var(--accent-color);
 font-size: 16px;
 font-weight: 400;
 line-height: 1.35;
-margin-bottom: 31px;
+margin-bottom: 16px;
 }
 .charge-img{
 width: 286px;
@@ -440,6 +431,7 @@ padding-right: 54px;
 display: flex;
 align-items: center;
 text-align: center;
+
 }
   /* <!-- Want to --> */
 
