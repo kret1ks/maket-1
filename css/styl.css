@@ -283,8 +283,7 @@ border-radius: 20px;
 padding-top: 22px;
 padding-bottom: 22px; 
 cursor: pointer; 
-margin-top: 39px; 
-margin-bottom: 85px;
+margin-top: 74px; 
 padding-top: 12px;
 padding-bottom: 12px;
 width: 180px;
@@ -301,20 +300,19 @@ margin-top: 74px;
 
 /* <!-- city --> */
 
-.city-info{
-   display: flex;
-   flex-direction: column;
-}
-
 .city {  
     background-image: url(../img/cityfone.jpg);  
     background-size: cover;  
     color: var(--logo-color);
+    margin-bottom: 69px;
+    justify-content: center;
+
 }  
 
 .city-title{
 width: 319px;
 font-size: 65px;
+color: var(--logo-color);
 font-weight: 400;
 line-height: 1.02;
 }
@@ -330,6 +328,7 @@ width: 189px;
 height: 62px;
 flex-shrink: 0;
 border-radius: 999px;
+color: var(--logo-color);
 background-color: var(--main-color);
 border: none;
 padding-top: 11px;
@@ -344,8 +343,7 @@ font-weight: 400;
 line-height: 1.35;
 }
 .city-content{
-    justify-content: center;
-    text-align: center;
+  justify-content: center;
 }
 .city-title{
 width: 280px;
@@ -353,7 +351,7 @@ color: var(--logo-color);
 text-align: right;
 font-size: 100px;
 font-weight: 400;
-line-height: 111.192px; 
+line-height: 1.11; 
 letter-spacing: 5px;
 }
 
@@ -370,7 +368,7 @@ color: var(--text-color);
 font-size: 65px;
 font-weight: 400;
 line-height: 1,02;
-padding-bottom: 27px;
+margin-bottom: 27px;
  }
  .charge-text{
 width: 252px;
@@ -378,13 +376,18 @@ color: var(--text-color);
 font-size: 21px;
 font-weight: 400;
 line-height: 1,18;
+margin-bottom: 43px;
  }
 .charge-list{
+
+}
+.charge-item{
 width: 171px;
 color: var(--accent-color);
 font-size: 16px;
 font-weight: 400;
-line-height: 21.6px;
+line-height: 1.35;
+margin-bottom: 31px;
 }
 .charge-img{
 width: 286px;
@@ -405,26 +408,12 @@ font-size: 18px;
 font-weight: 400;
 line-height: 1.2;
 }
-.charge-text{
-width: 25px;
-color: var(--accent-color);
-font-size: 17px;
-font-weight: 400;
-line-height: 1.27;
-}
 .charge-label{
     width: 25px;
 color: var(--main-color);
 font-size: 17px;
 font-weight: 400;
 line-height: 1.2;
-}
-.charge-title{
-width: 210px;
-color: var(--text-color);
-font-size: 29px;
-font-weight: 400;
-line-height: 1.18;
 }
 .charge-text{
 width: 252px;
@@ -447,7 +436,11 @@ padding-bottom: 23px;
 padding-left: 54px;
 padding-right: 54px;
 }
-
+.charge-card{
+display: flex;
+align-items: center;
+text-align: center;
+}
   /* <!-- Want to --> */
 
 
