@@ -20,7 +20,9 @@
     outline: 1px solid red;
 }
 .header{
- background: url(../img/fone.jpg) lightgray 50% / cover no-repeat;
+    position: absolute;
+    width: 99.5%;
+ /* background: url(../img/fone.jpg) lightgray 50% / cover no-repeat; */
  padding-bottom: 153px;
 }
 .header-img{
@@ -34,6 +36,9 @@ flex-shrink: 0;
 .header-box{
     display: flex;
     align-items: center;
+}
+.start-now{
+    padding-bottom: 183px;
 }
 .start-box{
     display: flex;
@@ -109,7 +114,6 @@ padding-bottom: 12px;
 padding-left: 51px;
 padding-right: 51px;
 margin-top: 57px;
-margin-bottom: 183px;
 }
 .start-now{
     background: url(../img/fone.jpg) lightgray 50% / cover no-repeat;
@@ -185,13 +189,15 @@ color: #2E2C34;
 font-size: 20px;
 font-weight: 400;
 line-height: 1.24;
-margin-bottom: 115px;
+margin-bottom: 48px;
 }
 .move-item {
     font-size: 20px;
     font-weight: 400;
     color: var(--text-color);
     background-color: #FFF;
+    padding: 67px 24px 32px 24px;
+    border-radius: 16px;
 }
 .move-box{
     display: flex;
@@ -305,20 +311,30 @@ flex-shrink: 0;
     background-size: cover;  
     color: var(--logo-color);
     justify-content: center;
+    padding-top: 98px;
+    padding-bottom: 61px;
 } 
-.city-title{
+.city-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.city-subtitle{
 width: 319px;
 font-size: 65px;
 color: var(--logo-color);
 font-weight: 400;
 line-height: 1.02;
+margin-bottom: 12px;
 }
+
 .city-text{
 width: 242px;
 color: var(--logo-color);
 font-size: 21px;
 font-weight: 400;
 line-height: 1.18;
+margin-bottom: 29px;
 }
 .city-btn{
 width: 189px;
@@ -332,6 +348,7 @@ padding-top: 11px;
 padding-bottom: 12px;
 padding-left: 51px;
 padding-right: 51px;
+margin-bottom: 23px;
 }
 .city-text{
 color: var(--logo-color);
@@ -340,15 +357,13 @@ font-weight: 400;
 line-height: 1.35;
 }
 .city-title{
-width: 319px;
 color: var(--logo-color);
 text-align: right;
 font-size: 100px;
 font-weight: 400;
-line-height: 1.11; 
+line-height: 1.11;
 letter-spacing: 5px;
 }
-
 
  /* <!-- You’re in charge --> */
 
@@ -412,16 +427,6 @@ line-height: 1.2;
   gap: 16px;
   
 }
-
-
-
-
-
-
-
-
-
-
 .charge{
     padding-top: 69px;
     padding-bottom: 113px;
