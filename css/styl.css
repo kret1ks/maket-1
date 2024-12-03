@@ -22,7 +22,6 @@
 .header{
     position: absolute;
     width: 99.5%;
- padding-bottom: 153px;
 }
 .header-img{
 width: 124px;
@@ -38,6 +37,7 @@ flex-shrink: 0;
 }
 .start-now{
     padding-bottom: 183px;
+    padding-top: 153px;
 }
 .start-box{
     display: flex;
@@ -524,30 +524,38 @@ flex-shrink: 0;
 
 /* friends */
 
-
+.friends{
+    padding-top: 68px;
+    padding-bottom: 73px;
+}
 .friends-title{
 width: 683px;
 color: var(--accent-color);
 font-size: 66px;
 font-weight: 400;
 line-height: 1,01;
+margin-top: 68px;
 }
 .friends-item{
-width: 246px;
+
 color: var(--accent-color);
 font-size: 29px;
 font-weight: 400;
 line-height: 0.98;
+margin-top: 98px;
+margin-right: 139px;
 }
 .friends-text{
-width: 92px;
 color: var(--accent-color);
 font-size: 17px;
 font-weight: 400;
 line-height: 1.42;
+margin-top: 19px;
 }
-
-
+.friends-list{
+    display: flex;
+    
+}
 /* speed */
 
 
@@ -575,7 +583,7 @@ flex-shrink: 0;
 border-radius: 10px;
 background-color: var(--logo-color)
 }
-.sped-text{
+.speed-text{
 width: 259px;
 color: var(--logo-color);
 font-size: 14px;
