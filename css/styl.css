@@ -567,7 +567,8 @@ width: 217px;
 color: var(--logo-color);
 font-size: 29px;
 font-weight: 400;
-line-height: 1,18; 
+line-height: 1,18;
+margin-bottom: 18px; 
 }
 .footer-text{
 width: 286px;
@@ -575,13 +576,15 @@ color: var(--logo-color);
 font-size: 16px;
 font-weight: 400;
 line-height: 1,5;
+margin-bottom: 29px;
 }
 .email-input{
 width: 314px;
 height: 54px;
 flex-shrink: 0;
 border-radius: 10px;
-background-color: var(--logo-color)
+background-color: var(--logo-color);
+margin-bottom: 25px;
 }
 .speed-text{
 width: 259px;
@@ -603,4 +606,11 @@ color: var(--logo-color);
 font-size: 16px;
 font-weight: 400;
 line-height: 1,5;
+}
+.footer-nav{
+display: flex;
+gap: 95px;
+
+align-items: center;
+  
 }
