@@ -369,6 +369,7 @@ letter-spacing: 5px;
 
  .charge-combo{
     display: flex;
+    justify-content: center;
  }
 .charge-title{
 width: 248px;
@@ -441,7 +442,6 @@ padding-left: 24px;
 padding-right: 24px;
 padding-bottom: 32px;
 border-radius: 16px;
-margin-left: 16px;
 }
 .charge{
     padding-top: 69px;
@@ -467,13 +467,9 @@ margin-top: 12px;
   /* <!-- Want to --> */
 
 
-.fridends{
-       padding-top: 96px;
-    padding-bottom: 96px;
-}
 .want-box {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: flex-start; 
 }
 .want-about {
@@ -524,12 +520,32 @@ flex-shrink: 0;
 
 
 /* friends */
+
+
+.fridends{
+       padding-top: 96px;
+    padding-bottom: 96px;
+}
 .friends-write{
-width: 246px;
+width: 246px; 
 color: var(--accent-color);
 font-size: 29px;
 font-weight: 400;
 line-height: 0,98;
+}
+.friends-writen{
+ width: 256px;
+color: var(--accent-color);
+font-size: 28px;
+font-weight: 400;
+line-height: 1,02;
+}
+.friends-dont{
+width: 227px;
+color: var(--accent-color);
+font-size: 28px;
+font-weight: 400;
+line-height: 1,02;
 }
 .friends{
     padding-top: 68px;
@@ -541,16 +557,12 @@ color: var(--accent-color);
 font-size: 66px;
 font-weight: 400;
 line-height: 1,01;
-margin-top: 68px;
 }
 .friends-item{
-
 color: var(--accent-color);
 font-size: 29px;
 font-weight: 400;
 line-height: 0.98;
-margin-top: 98px;
-margin-right: 139px;
 }
 .friends-text{
 color: var(--accent-color);
@@ -560,8 +572,9 @@ line-height: 1.42;
 margin-top: 19px;
 }
 .friends-list{
-    display: flex;
-    
+display: flex;
+margin-top: 98px;
+justify-content: space-around ;
 }
 /* speed */
 
@@ -600,24 +613,24 @@ font-size: 14px;
 font-weight: 400;
 line-height: 1,5;
 }
-.footer-menu{
-width: 42px;
+.menu-item{
+ width: 42px;
 color: rgba(255, 255, 255, 0.50);
 font-size: 16px;
 font-weight: 400;
 line-height: 1,5;
-
+margin-left: 145px;
 }
-.footer-list{
+.menu-text{
 width: 40px;
 color: var(--logo-color);
 font-size: 16px;
 font-weight: 400;
 line-height: 1,5;
+margin-left: 95px;
+
 }
-/* .footer-nav{
-display: flex;
-gap: 95px;
-align-items: center;
-background-repeat: no-repeat;
-} */
+.footer-menu{
+    display: flex;
+
+}
