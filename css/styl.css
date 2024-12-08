@@ -579,8 +579,14 @@ justify-content: space-around ;
 /* speed */
 
 
-.footer-speed{
-background: url(../img/fone.jpg) lightgray 50% / cover no-repeat;
+.footer{
+    padding-top: 98px;
+    padding-bottom: 21px;
+    background: url(../img/fone.jpg) lightgray 50% / cover no-repeat;
+}
+.footer-box{
+    display: flex;
+    position: relative;
 }
 .footer-title{
 width: 217px;
@@ -619,18 +625,26 @@ color: rgba(255, 255, 255, 0.50);
 font-size: 16px;
 font-weight: 400;
 line-height: 1,5;
-margin-left: 145px;
 }
 .menu-text{
-width: 40px;
 color: var(--logo-color);
 font-size: 16px;
 font-weight: 400;
 line-height: 1,5;
-margin-left: 95px;
-
 }
 .footer-menu{
 display: flex;
-
+gap: 95px;
+margin-left: 142px;
+}
+.footer-menu  ul{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.footer-social{
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    right: 0;
 }
