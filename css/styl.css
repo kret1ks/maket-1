@@ -35,37 +35,6 @@ flex-shrink: 0;
     display: flex;
     align-items: center;
 }
-.start-now{
-    padding-bottom: 183px;
-    padding-top: 153px;
-}
-.start-box{
-    display: flex;
-    justify-content: center;
-    align-items: center; 
-    flex-direction: column; 
-    text-align: center;
-}
-.start-title {  
-    width: 540px;  
-    color: var(--logo-color);  
-    font-size: 99px;  
-    font-style: normal;  
-    font-weight: 400;  
-    line-height: 1.12;   
-    letter-spacing: 5px;  
-   margin-top: 153px;
-    margin-bottom: 37px;
-}  
-.start-text{
-    width: 293px;
-color: var(--logo-color);
-text-align: center;
-font-size: 21px;
-font-weight: 400;
-line-height: 1.10; 
-display: flex;
-}
 .header-list { 
 gap: 40px;
 display: flex;
@@ -114,9 +83,39 @@ padding-left: 51px;
 padding-right: 51px;
 margin-top: 57px;
 }
-.start-now{
-    background: url(../img/fone.jpg) lightgray 50% / cover no-repeat;
 
+.start-now{
+    padding-bottom: 183px;
+    padding-top: 153px;
+    background: url(../img/fonebike.png) lightgray 50% / cover no-repeat;
+    box-shadow: 10px 10px 20px rgba(255, 105, 180, 0.5);
+}
+.start-box{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column; 
+    text-align: center;
+}
+.start-title {  
+    width: 540px;  
+    color: var(--logo-color);  
+    font-size: 99px;  
+    font-style: normal;  
+    font-weight: 400;  
+    line-height: 1.12;   
+    letter-spacing: 5px;  
+   margin-top: 153px;
+    margin-bottom: 37px;
+}  
+.start-text{
+    width: 293px;
+color: var(--logo-color);
+text-align: center;
+font-size: 21px;
+font-weight: 400;
+line-height: 1.10; 
+display: flex;
 }
 
 /* work */
