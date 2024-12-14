@@ -7,10 +7,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
       rel="stylesheet">
-    <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/styl.css">
+    <link rel="stylesheet" href="./css/reset.css">
   </head>
 
   <body>
@@ -18,14 +18,14 @@
     <header class="header">
       <div class="container header-box">
         <div class="header-logo">
-          <img src="./img/frame.png" alt="Company logo" class="header-img">
+          <img src="./img/frame.png" alt="logo" class="header-img">
         </div>
-        <nav class="header-nav" aria-label="Main Navigation">
+        <nav class="header-nav">
           <ul class="header-list">
-            <li class="header-item"><a href="#">Concierge</a></li>
-            <li class="header-item"><a href="#">Rides</a></li>
-            <li class="header-item"><a href="#">For Business</a></li>
-            <li class="header-item"><a href="#">En</a></li>
+            <li class="header-item">Concierge</li>
+            <li class="header-item">Rides</li>
+            <li class="header-item">For Business</li>
+            <li class="header-item">En</li>
           </ul>
         </nav>
         <div class="header-btn-box">
@@ -33,75 +33,285 @@
         </div>
       </div>
     </header>
-
-    <!-- Footer -->
-    <footer class="footer">
-      <section class="footer-speed">
-        <div class="container footer-box">
-          <div>
-            <h2 class="footer-title">Stay up to speed</h2>
-            <p class="footer-text">
-              Sign up to get the latest Dance offers, updates, and tips straight
-              to your inbox.
-            </p>
-            <input
-              type="email"
-              placeholder="your@email.de"
-              class="email-input"
-              aria-label="Email input">
-            <p class="speed-text">
-              By checking this box, you allow Dance to collect data relating to
-              the Dance newsletter.
-            </p>
-          </div>
-
-          <nav aria-label="Footer Navigation">
-            <ul class="footer-menu">
-              <li>
-                <h3 class="menu-item">Menu</h3>
-                <ul>
-                  <li class="menu-text"><a href="#">Rides</a></li>
-                  <li class="menu-text"><a href="#">Concierge</a></li>
-                  <li class="menu-text"><a href="#">For Business</a></li>
-                  <li class="menu-text"><a href="#">Start now</a></li>
-                </ul>
-              </li>
-              <li>
-                <h3 class="menu-item">Products</h3>
-                <ul>
-                  <li class="menu-text"><a href="#">Ebikes</a></li>
-                  <li class="menu-text"><a href="#">Moped</a></li>
-                </ul>
-              </li>
-              <li>
-                <h3 class="menu-item">Company</h3>
-                <ul>
-                  <li class="menu-text"><a href="#">About</a></li>
-                  <li class="menu-text"><a href="#">Blog</a></li>
-                  <li class="menu-text"><a href="#">Press</a></li>
-                  <li class="menu-text"><a href="#">FAQ</a></li>
-                  <li class="menu-text"><a href="#">Jobs</a></li>
-                </ul>
-              </li>
-              <li>
-                <h3 class="menu-item">Legal</h3>
-                <ul>
-                  <li class="menu-text"><a href="#">Privacy</a></li>
-                  <li class="menu-text"><a href="#">Imprint</a></li>
-                  <li class="menu-text"><a href="#">Cancel subscription</a></li>
-                </ul>
-              </li>
+    <main>
+      <!-- Start Now -->
+      <section class="start-now">
+        <div class="container start-box">
+          <h1 class="start-title">Your future is electric</h1>
+          <p class="start-text">
+            Get your own ebike or emoped with our flexible subscription
+          </p>
+          <button type="button" class="start-btn">Start now</button>
+        </div>
+      </section>
+      <!-- Works -->
+      <section class="main">
+        <div class="container main-box">
+          <div class="works-box">
+            <h2 class="main-title">How it works</h2>
+            <ul class="main-list">
+              <li class="main-item">1. Pick your city</li>
+              <li class="main-item">2. Choose your ride</li>
+              <li class="main-item">3. Delivery to your door</li>
+              <li class="main-item">4. Ride freely</li>
             </ul>
-          </nav>
-
-          <div class="footer-social">
-            <a href="#"><img src="./img/instagram.png" alt="Instagram"></a>
-            <a href="#"><img src="./img/facebook.png" alt="Facebook"></a>
-            <a href="#"><img src="./img/ptaha.png" alt="Twitter"></a>
-            <a href="#"><img src="./img/in.png" alt="LinkedIn"></a>
+            <button type="button" class="main-btn">Start now</button>
+          </div>
+          <img src="./img/moto.jpg" alt="moto" class="works-img">
+        </div>
+      </section>
+      <!-- Move your way -->
+      <section class="move">
+        <div class="container">
+          <h2 class="move-title">Move your way</h2>
+          <p class="move-read">
+            Choose the electric ride that suits your lifestyle.
+          </p>
+          <ul class="move-list">
+            <li class="move-item">
+              <img src="./img/bake.jpg" alt="Dance One Step" class="move-img">
+              <div class="move-info">
+                <div class="move-box">
+                  <p class="move-text">
+                    From €59 <span class="discounted-price">€39</span
+                    ><span class="move-span">/mo</span>
+                  </p>
+                  <p class="move-span">Winter offer</p>
+                </div>
+                <h2 class="move-name">Dance One Step</h2>
+                <p class="move-type">Ebike</p>
+                <button class="move-button">See details</button>
+              </div>
+            </li>
+            <li class="move-item">
+              <img src="./img/bake.jpg" alt="Dance One" class="move-img">
+              <div class="move-info">
+                <div class="move-box">
+                  <p class="move-text">
+                    From €59 <span class="discounted-price">€39</span
+                    ><span class="move-span">/mo</span>
+                  </p>
+                  <p class="move-span">Winter offer</p>
+                </div>
+                <h2 class="move-name">Dance One</h2>
+                <p class="move-type">Ebike</p>
+                <button class="move-button">See details</button>
+              </div>
+            </li>
+            <li class="move-item">
+              <img src="./img/skuter.jpg" alt="Dance Moped" class="move-img">
+              <div class="move-info">
+                <div class="move-box">
+                  <p class="move-text">
+                    From €89 <span class="discounted-price">€39</span
+                    ><span class="move-span">/mo</span>
+                  </p>
+                  <p class="move-span">Winter offer</p>
+                </div>
+                <h2 class="move-name">Dance Moped</h2>
+                <p class="move-type">Emoped</p>
+                <button class="move-button">See details</button>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!-- Ride -->
+      <section class="ride">
+        <div class="container ride-box">
+          <div class="ride-list">
+            <h2 class="ride-title">Just ride—we’ll take care of the rest</h2>
+            <p class="ride-text">
+              Your local Concierge Team will repair or replace your ride within
+              24 hours—all included with your subscription.
+            </p>
+            <button type="button" class="ride-btn">See details</button>
+          </div>
+          <img src="./img/ride.jpg" alt="Ride image" class="ride-img">
+        </div>
+      </section>
+      <!-- City -->
+      <section class="city">
+        <div class="container city-box">
+          <div class="city-info">
+            <h2 class="city-subtitle">Your city is our city</h2>
+            <p class="city-text">
+              Our rides are available in 5 European cities — and counting.
+            </p>
+            <button class="city-btn">Start now</button>
+            <p class="city-text">Want to see Dance in your city?</p>
+          </div>
+          <div class="city-content">
+            <h2 class="city-title">Berlin</h2>
+            <h2 class="city-title">Hamburg</h2>
+            <h2 class="city-title">Munich</h2>
+            <h2 class="city-title">Paris</h2>
+            <h2 class="city-title">Vienna</h2>
           </div>
         </div>
       </section>
-    </footer>
+      <!-- You’re in charge -->
+      <section class="charge">
+        <div class="container charge-combo">
+          <div class="charge-section">
+            <h2 class="charge-title">You're in charge</h2>
+            <p class="charge-ride">
+              Your subscription is fully flexible — with free cancelation at any
+              time and no sign-up fees.
+            </p>
+            <ul class="charge-list">
+              <li class="charge-item">Repairs within 24 hours</li>
+              <li class="charge-item">Replacements in case of theft</li>
+              <li class="charge-item">App to track your rides</li>
+              <li class="charge-item">Cancel anytime</li>
+            </ul>
+          </div>
+          <div class="charge-box">
+            <div class="charge-card">
+              <img
+                src="./img/bake.jpg"
+                alt="Dance One Step Ebike"
+                class="charge-img">
+              <div class="charge-info">
+                <p class="charge-sell">
+                  From €59 <span class="charge-price">€39</span
+                  ><span class="charge-left">/mo</span>
+                  <span class="charge-label">Winter offer</span>
+                </p>
+              </div>
+              <h2 class="charge-dance">Dance One Step</h2>
+
+              <p class="charge-text">Ebike</p>
+              <button class="charge-btn">Start now</button>
+            </div>
+            <div class="charge-card">
+              <img
+                src="./img/skuter.jpg"
+                alt="Dance Moped"
+                class="charge-img">
+              <div class="charge-info">
+                <p class="charge-sell">
+                  From €89 <span class="charge-price">€39</span>/mo
+                  <span class="charge-label">Winter offer</span>
+                </p>
+              </div>
+              <h2 class="charge-dance">Dance Moped</h2>
+              <p class="charge-text">Emoped</p>
+              <button class="charge-btn">Start now</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Want to -->
+      <section class="want">
+        <div class="container want-box">
+          <div class="want-about">
+            <h2 class="want-title">Want to know more?</h2>
+            <button class="want-btn">Learn more</button>
+          </div>
+          <ul class="want-list">
+            <li class="want-item">How does Dance work?</li>
+            <li class="want-item">How do I charge my Dance eride?</li>
+            <li class="want-item">
+              What accessories can I use with my ebike and emoped?
+            </li>
+            <li class="want-item">How do repairs work?</li>
+            <li class="want-item">Can I test the ride before buying?</li>
+            <li class="want-item">How do I cancel my membership?</li>
+            <li class="want-item">What happens if my vehicle gets stolen?</li>
+          </ul>
+        </div>
+      </section>
+      <!-- Friends -->
+      <section class="friends">
+        <div class="container friends-box">
+          <h2 class="friends-title">What our members say</h2>
+          <ul class="friends-list">
+            <li class="friends-item">
+              <p class="friends-write">
+                It's super efficient, no sweat, very stable and I get everywhere
+                faster.
+              </p>
+              <p class="friends-text">Luna, Berlin</p>
+            </li>
+            <li class="friends-item">
+              <p class="friends-writen">
+                My Dance bike just makes my commute light and fun.
+              </p>
+              <p class="friends-text">James, Berlin</p>
+            </li>
+            <li class="friends-item">
+              <p class="friends-dont">
+                I don’t have to worry anymore about my old bike breaking down.
+              </p>
+              <p class="friends-text">Travis, Hamburg</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <!-- Footer -->
+<footer class="footer">
+  <section class="footer-speed">
+    <div class="container footer-box">
+      <div>
+        <h2 class="footer-title">Stay up to speed</h2>
+        <p class="footer-text">
+          Sign up to get the latest Dance offers, updates, and tips straight to your inbox.
+        </p>
+        <input
+          type="email"
+          placeholder="your@email.de"
+          class="email-input">
+        <p class="speed-text">
+          By checking this box, you allow Dance to collect data relating to the Dance newsletter, including whether it has been opened and clicked through. For more information.
+        </p>
+      </div>
+      <ul class="footer-menu">
+        <li>
+          <ul>
+            <li class="menu-item">Menu</li>
+            <li class="menu-text"><a href="#">Rides</a></li>
+            <li class="menu-text"><a href="#">Concierge</a></li>
+            <li class="menu-text"><a href="#">For Business</a></li>
+            <li class="menu-text"><a href="#">Start now</a></li>
+          </ul>
+        </li>
+        <li>
+          <ul>
+            <li class="menu-item">Products</li>
+            <li class="menu-text"><a href="#">Ebikes</a></li>
+            <li class="menu-text"><a href="#">Moped</a></li>
+          </ul>
+        </li>
+        <li>
+          <ul>
+            <li class="menu-item">Company</li>
+            <li class="menu-text"><a href="#">About</a></li>
+            <li class="menu-text"><a href="#">Blog</a></li>
+            <li class="menu-text"><a href="#">Press</a></li>
+            <li class="menu-text"><a href="#">FAQ</a></li>
+            <li class="menu-text"><a href="#">Jobs</a></li>
+          </ul>
+        </li>
+        <li>
+          <ul>
+            <li class="menu-item">Legal</li>
+            <li class="menu-text"><a href="#">Privacy</a></li>
+            <li class="menu-text"><a href="#">Imprint</a></li>
+            <li class="menu-text"><a href="#">Cancel subscription</a></li>
+          </ul>
+        </li>
+      </ul>
+      <div class="footer-social">
+        <a href="#"><img src="./img/instagram.png" alt="Instagram"></a>
+        <a href="#"><img src="./img/facebook.png" alt="Facebook"></a>
+        <a href="#"><img src="./img/ptaha.png" alt="Twitter"></a>
+        <a href="#"><img src="./img/in.png" alt="LinkedIn"></a>
+      </div>
+    </div>
+  </section>
+</footer>
+
   </body>
 </html>
