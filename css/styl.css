@@ -96,7 +96,7 @@ margin-top: 57px;
     flex-direction: column; 
     text-align: center;
 }
-.start-title {  
+.start-title  {  
     width: 540px;  
     color: var(--logo-color);  
     font-size: 99px;  
@@ -106,7 +106,23 @@ margin-top: 57px;
     letter-spacing: 5px;  
    margin-top: 153px;
     margin-bottom: 37px;
+    animation-name: move-title;
+    animation-duration: 1000ms;
 }  
+@keyframes move-title{
+    0%{
+        transform: translateX(-100%);
+        color: black;
+    }
+    50%{
+        color: blueviolet;
+    }
+    100%{
+        transform: translateX(0);
+        color: var(--logo-color);
+    }
+ 
+}
 .start-text{
     width: 293px;
 color: var(--logo-color);
