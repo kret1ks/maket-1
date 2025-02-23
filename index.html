@@ -9,6 +9,11 @@
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
       rel="stylesheet">
+      <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> 
     <link rel="stylesheet" href="./css/styl.css">
     <link rel="stylesheet" href="./css/reset.css">
   </head>
@@ -18,18 +23,18 @@
     <header class="header">
       <div class="container header-box">
         <div class="header-logo">
-          <img src="./img/frame.png" alt="logo" class="header-img">
+          <img src="./img/frame.png" alt="logo" class="header-img animate__animated animate__bounce" >
         </div>
         <nav class="header-nav">
-          <ul class="header-list">
-            <li class="header-item"><a href="#city" class="header-link">Concierge</a></li>
+          <ul class="header-list animate__animated animate__fadeInDownBig">
+            <li class="header-item"><a href="#city" class="header-link ">Concierge</a></li>
             <li class="header-item"><a href="#ride" class="header-link">Rides</a></li>
             <li class="header-item"><a href="#charhe" class="header-link">For Business</a></li>
             <li class="header-item"><a href="#" class="header-link">En</a></li>
           </ul>
         </nav>
         <div class="header-btn-box">
-          <button type="button" class="header-btn">Start now</button>
+          <button type="button" class="header-btn animate__animated animate__slideInDown">Start now</button>
         </div>
       </div>
     </header>
@@ -38,24 +43,35 @@
       <section class="start-now">
         <div class="container start-box">
           <h1 class="start-title">Your future is electric</h1>
-          <p class="start-text">
+          <p class="start-text animate__animated animate__bounceInDown">
             Get your own ebike or emoped with our flexible subscription
           </p>
-          <button type="button" class="start-btn">Start now</button>
+          <button type="button" class="start-btn animate__animated animate__slideInDown">Start now</button>
         </div>
       </section>
       <!-- Works -->
       <section class="main">
         <div class="container main-box">
-          <div class="works-box">
+          <div class="works-box " >
+            <div data-aos="fade-up"
+     data-aos-duration="3000">
+
             <h2 class="main-title">How it works</h2>
+          </div>
+          <div data-aos="zoom-out">
             <ul class="main-list">
               <li class="main-item">1. Pick your city</li>
               <li class="main-item">2. Choose your ride</li>
               <li class="main-item">3. Delivery to your door</li>
               <li class="main-item">4. Ride freely</li>
             </ul>
+          </div>
+          <div data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="1500">
+
             <button type="button" class="main-btn">Start now</button>
+          </div>
           </div>
           <img src="./img/moto.jpg" alt="moto" class="works-img">
         </div>
@@ -63,7 +79,11 @@
       <!-- Move your way -->
       <section class="move">
         <div class="container">
-          <h2 class="move-title">Move your way</h2>
+          <div data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="1500">
+
+          <h2 class="move-title ">Move your way</h2>
           <p class="move-read">
             Choose the electric ride that suits your lifestyle.
           </p>
@@ -115,11 +135,15 @@
             </li>
           </ul>
         </div>
+        </div>
       </section>
       <!-- Ride -->
       <section class="ride" id="ride">
         <div class="container ride-box">
           <div class="ride-list">
+            <div data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">
             <h2 class="ride-title">Just ride—we’ll take care of the rest</h2>
             <p class="ride-text">
               Your local Concierge Team will repair or replace your ride within
@@ -127,13 +151,19 @@
             </p>
             <button type="button" class="ride-btn">See details</button>
           </div>
+          </div>
+          <div data-aos="fade-up"
+     data-aos-anchor-placement="bottom-bottom">
           <img src="./img/ride.jpg" alt="Ride image" class="ride-img">
+        </div>
         </div>
       </section>
       <!-- City -->
       <section class="city" id="city">
         <div class="container city-box">
           <div class="city-info">
+            <div data-aos="fade-up"
+     data-aos-duration="3000">
             <h2 class="city-subtitle">Your city is our city</h2>
             <p class="city-text">
               Our rides are available in 5 European cities — and counting.
@@ -141,12 +171,15 @@
             <button class="city-btn">Start now</button>
             <p class="city-text">Want to see Dance in your city?</p>
           </div>
+          </div>
           <div class="city-content">
+            <div data-aos="zoom-out-left">
             <h2 class="city-title">Berlin</h2>
             <h2 class="city-title">Hamburg</h2>
             <h2 class="city-title">Munich</h2>
             <h2 class="city-title">Paris</h2>
             <h2 class="city-title">Vienna</h2>
+          </div>
           </div>
         </div>
       </section>
@@ -206,10 +239,17 @@
       <section class="want">
         <div class="container want-box">
           <div class="want-about">
+            <div data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">
             <h2 class="want-title">Want to know more?</h2>
             <button class="want-btn">Learn more</button>
           </div>
+          </div>
           <ul class="want-list">
+            <div data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="1500">
             <li class="want-item">How does Dance work?</li>
             <li class="want-item">How do I charge my Dance eride?</li>
             <li class="want-item">
@@ -219,15 +259,23 @@
             <li class="want-item">Can I test the ride before buying?</li>
             <li class="want-item">How do I cancel my membership?</li>
             <li class="want-item">What happens if my vehicle gets stolen?</li>
+          </div>
           </ul>
         </div>
       </section>
       <!-- Friends -->
       <section class="friends">
         <div class="container friends-box">
+          <div data-aos="zoom-in">
           <h2 class="friends-title">What our members say</h2>
+        </div>
+        <div data-aos="fade-up"
+     data-aos-duration="3000">
+
+
           <ul class="friends-list">
             <li class="friends-item">
+              
               <p class="friends-write">
                 It's super efficient, no sweat, very stable and I get everywhere
                 faster.
@@ -247,6 +295,7 @@
               <p class="friends-text">Travis, Hamburg</p>
             </li>
           </ul>
+        </div>
         </div>
       </section>
     </main>
@@ -312,6 +361,9 @@
     </div>
   </section>
 </footer>
-
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
   </body>
 </html>
